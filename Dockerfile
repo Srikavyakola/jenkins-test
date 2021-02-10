@@ -11,4 +11,4 @@ RUN apt-get update && \
     openjdk-8-jre-headless \
     && rm -rf /var/lib/apt/lists/*
 
-CMD ["npm", "run", "e2e"]
+CMD ["npm", "start"]
